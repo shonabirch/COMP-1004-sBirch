@@ -1,0 +1,181 @@
+
+body{
+    font-family: Gill Sans, sans-serif;
+}
+.page{
+    display:none;
+    width:100%;
+    min-height: 100%;
+    position:absolute;
+    padding: 1rem, 2rem;
+
+}
+.navbar-brand{
+    color: lightgrey;
+}
+.welcome{
+    color: darkgray;
+}
+.welcome1{
+    color:rgb(46, 68, 194);
+}
+.welcome2{
+    color:darkgray;
+}
+.welcome3{
+    color:rgb(224, 26, 198);
+}
+.welcome4{
+    color:darkgray;
+}
+.navbar{
+    background-color:rgb(92, 92, 92);
+}
+.nav-link{
+    color:darkgray;
+}
+.navbar-toggler-icon{
+    color: lightgray;
+}
+html, body{
+    height: 100%;
+}
+.welcome-text{
+    color:lightgrey;
+}
+
+
+.container-time{
+    background-color: rgb(92, 92, 92);
+    padding: 50px;
+    width: 500px;
+    border: 10px dashed lightgray;
+    outline-offset: -3px darkgrey;
+    text-align: center;
+    opacity: 0.9;
+    margin-top: 150px;
+    display: block;
+    margin-left: 200px;
+    font-family: Gill Sans, sans-serif;
+
+
+}
+.containerform{
+    background-color: rgb(92, 92, 92);
+    padding: 50px;
+    border-width: 10px;
+    border: 5px dashed rgb(92, 92, 92);
+    /* outline-offset: -3px darkgrey; */
+    text-align: center;
+    background-color: lightgray;
+    opacity: 0.9;
+    margin-top: 150px;
+    margin-left: 200px;
+    color:darkgrey;
+    font-family: Gill Sans, sans-serif;
+    position: relative;
+
+}
+.reservation{
+    color: rgb(92, 92, 92);
+    font-size: 50px;
+    font-family: Gill Sans, sans-serif;
+}
+.heading{
+    font-size: 50px;
+
+}
+.heading_days{
+    color: lightgray;
+    font-size: 30px;
+    
+}
+
+
+/* .containerright{
+    color:lightgray;
+    background-color: rgb(92, 92, 92);
+    float:right;
+    margin-left: 200px;
+    opacity: 0.9;
+
+}   
+.containerleft{
+    float:left;
+    border-width: 10px;
+    width: 500px;
+    opacity: 0.9;
+} */
+
+.open{
+    font-size: 25px;
+}
+.yourname{
+    color:white;
+}
+.jumbotron{
+    background-color: lightgray;
+    opacity: 0.9;
+}
+.logo{
+    width: 100px;
+    height: 200px;
+    z-index: 10;
+}
+.page-wrapper{
+    min-height: 100%;
+}
+/* footer */
+
+.footer .footer-bottom{
+    background-color: rgb(92, 92, 92);
+    color: lightgrey;
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 10px;
+    width: 100%;
+}
+/* #containerleft {
+    display: flex;
+    width: 400px;
+  }
+  #containerright {
+    display: flex;
+    background-color: lightgray;
+    margin-top: 10px;
+ 
+  } */
+
+
+
+
+  /* Information page */
+  #section1{
+      background-color: rgb(139, 139, 139);
+      opacity: 0.9;
+      color:rgb(90, 40, 44);
+  }
+  #section2{
+    background-color: rgba(187, 185, 199, 0.295);
+    opacity: 0.9;
+    color: rgb(0, 0, 0);
+}
+#section3{
+    background-color: rgb(107, 116, 107);
+    opacity: 0.9;
+    color: rgb(173, 173, 177);
+}
+#section41{
+    background-color: rgba(114, 92, 94, 0.562);
+    opacity: 0.9;
+    color: rgb(41, 10, 10);
+}
+#section42{
+    background-color: rgba(72, 60, 75, 0.582);
+    opacity: 0.9;
+    color: rgb(46, 48, 32);
+}
+/* style="background: url(img/pub.jpeg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;" */
