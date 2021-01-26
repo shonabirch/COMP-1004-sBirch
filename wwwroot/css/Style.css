@@ -1,6 +1,7 @@
 
-body{
+.body{
     font-family: Gill Sans, sans-serif;
+    position:flex;
 }
 .page{
     display:none;
@@ -92,21 +93,6 @@ html, body{
 }
 
 
-/* .containerright{
-    color:lightgray;
-    background-color: rgb(92, 92, 92);
-    float:right;
-    margin-left: 200px;
-    opacity: 0.9;
-
-}   
-.containerleft{
-    float:left;
-    border-width: 10px;
-    width: 500px;
-    opacity: 0.9;
-} */
-
 .open{
     font-size: 25px;
 }
@@ -138,17 +124,10 @@ html, body{
     padding-top: 10px;
     width: 100%;
 }
-/* #containerleft {
-    display: flex;
-    width: 400px;
-  }
-  #containerright {
-    display: flex;
-    background-color: lightgray;
-    margin-top: 10px;
- 
-  } */
 
+.printout{
+    color:white;
+}
 
 
 
@@ -163,11 +142,6 @@ html, body{
     opacity: 0.9;
     color: rgb(0, 0, 0);
 }
-#section3{
-    background-color: rgb(107, 116, 107);
-    opacity: 0.9;
-    color: rgb(173, 173, 177);
-}
 #section41{
     background-color: rgba(114, 92, 94, 0.562);
     opacity: 0.9;
@@ -178,4 +152,112 @@ html, body{
     opacity: 0.9;
     color: rgb(46, 48, 32);
 }
+/* report */
+.doyouhavecovid{
+    background-color: rgb(92, 92, 92);
+    padding: 50px;
+    border-width: 10px;
+    border: 5px dashed rgb(92, 92, 92);
+    /* outline-offset: -3px darkgrey; */
+    text-align: center;
+    background-color: lightgray;
+    opacity: 0.9;
+    margin-top: 150px;
+
+    color:rgb(68, 67, 67);
+    font-family: Gill Sans, sans-serif;
+    position: relative;
+}
+/* yes */
+.yesform{
+    background-color: rgb(92, 92, 92);
+    padding: 50px;
+    border-width: 10px;
+    border: 5px dashed rgb(92, 92, 92);
+    /* outline-offset: -3px darkgrey; */
+    text-align: center;
+    background-color: lightgray;
+    opacity: 0.9;
+    /* margin-top: 200px;
+    margin-left: 500px; */
+    color:rgb(82, 82, 82);
+    font-family: Gill Sans, sans-serif;
+    position: relative;
+
+
+}
+/* staff login page */
+/* #login{ */
+    /* background-color: rgb(92, 92, 92); */
+    /* padding: 10px; */
+    /* border-width: 4px;
+    border: 5px dashed rgb(92, 92, 92); 
+    margin: auto;
+    width: 50%;
+    border: 3px solid lightgray
+    ; */
+    /* padding: 10px; */
+    /* padding: 70px 0; */
+    /* position: fixed; or absolute */
+    /* top: 50%; */
+    /* left: 45%; */
+  
+    /* outline-offset: -3px darkgrey; */
+    /* text-align: center;
+    background-color: lightgray;
+    opacity: 0.9;
+    margin-top: 150px;
+    margin-left: 200px;
+    color:darkgrey;
+    font-family: Gill Sans, sans-serif;
+    position: relative; */
+/* } */
+.logintext{
+    position: fixed; /* or absolute */
+    top: 30%;
+    left: 44%;
+    color: lightgrey;
+    background-color:rgb(94, 92, 92);
+    padding: 10px;
+    opacity: 0.9;
+    border-radius: 25px;
+}
+ #login{
+    background-color: darkgrey;
+    position: fixed; /* or absolute */
+    top: 35%;
+    left: 40%;
+    padding: 40px; 
+    /* width: 200px; */
+    height: 100x;
+    border-radius: 40px; 
+    width: 400px;
+    opacity: 0.9;
+
+} 
+/* .login1{
+    background-color: darkgrey;
+    position: fixed; /* or absolute */
+    /* top: 50%;
+    left: 40%;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    border-radius: 25px;
+    width: 400px;
+    opacity: 0.9;
+} */ 
+/* #login{
+    background-color: darkgrey;
+    position: fixed; or absolute */
+    /* top: 45%;
+    left: 41%;
+    padding: 40px;
+    width: 200px;
+    height: 150px;
+    border-radius: 25px;
+    width: 400px;
+    opacity: 0.9; */
+}
+
 /* style="background: url(img/pub.jpeg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;" */
