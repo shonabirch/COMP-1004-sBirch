@@ -3,14 +3,14 @@ const url = "https://localhost:44302/api/data/"
 window.onload = () => {
 
 
-    //const saveBtn = document.getElementById("submit2");
+    //const saveBtn = document.getElementById("tableBooking");
     //saveBtn.addEventListener("click", (e) => {
-    $(document).on("form", "event", function () {
+    $(document).on("click", "#select2", function () {
         // This will prevent the page from refreshing when you click submit
         e.preventDefault();
 
         postData().then(function () {
-            document.querySelector("form").reset();
+            document.querySelector("tableBooking").reset();
             fetchData();
         }).catch(function () {
         })
@@ -52,9 +52,6 @@ window.onload = () => {
         $(document).on("click", "#table", function () {
             $('main').load('table.html');
         });
-
-
-
         // if you press yes or no on the report page
         $(document).on("click", "#yesbtn", function () {
             $('main').load('yes.html');
@@ -87,7 +84,7 @@ window.onload = () => {
     };
 
     async function postData() {
-        const form = document.getElementById("test");
+        const form = document.getElementById("tableBooking");
         const fname = form.elements["forename"].value;
         const lname = form.elements["lastame"].value;
         console.log({ fname, lname });
