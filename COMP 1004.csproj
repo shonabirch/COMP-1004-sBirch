@@ -42,6 +42,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="wwwroot\DataController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="User.cs" />
   </ItemGroup>
 

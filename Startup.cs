@@ -47,6 +47,7 @@ namespace ConnectUs
                 endpoints.MapControllers();
             });
             Data.Init();
+            Data2.Init2();
 
             //User.Init();
         }

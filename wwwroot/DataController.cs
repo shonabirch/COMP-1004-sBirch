@@ -15,9 +15,9 @@ namespace Example.Controllers
     {
         // GET: api/<DataController>
         [HttpGet]
-        public IEnumerable<ConnectUs.User> Get()
+        public IEnumerable<User> Get()
         {
-            return ConnectUs.Data.GetData().ToArray();
+            return Data.GetData().ToArray();
         }
 
 
@@ -25,9 +25,12 @@ namespace Example.Controllers
         [HttpPost]
         public IActionResult Post([FromBody] User value)
         {
-            if (value.firstName == "" || value.lastName == "")
+            if (value.firstName == "" || value.lastName == "" || value.pNumber=="" || value.email =="" || value.date =="" || value.time =="" || value.people=="")
             { 
-                return BadRequest(); 
+                if(Int64.Parse(value.people) > 6)
+                {
+                    return BadRequest();
+                }
             }
             Data.PushData(value);
             return Ok();
@@ -37,9 +40,11 @@ namespace Example.Controllers
         //data.Init();
 
         // DELETE api/<DataController>/5
-        /*[HttpDelete("{id}")]
+        [HttpDelete("{id}")]
         public void Delete(int id)
         {
-        }*/
+            Data.Delete(id);
+            //return id;
+        }
     }
 }

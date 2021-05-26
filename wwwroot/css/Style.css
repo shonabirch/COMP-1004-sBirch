@@ -211,7 +211,27 @@ html, body{
     width: 400px;
     opacity: 0.9;
 
-} 
-
+}
+#container {
+    background-color: darkgrey;
+    position: fixed; /* or absolute */
+    left: 40%;
+    top:30%;
+    padding: 40px;
+    border-radius: 40px;
+    opacity: 0.9;
+}
+#container2 {
+    background-color: darkgrey;
+    position: fixed; /* or absolute */
+    padding: 40px;
+    border-radius: 40px;
+    opacity: 0.9;
+    left: 15%;
+    top: 30%;
+}
+.deletetext {
+    color: lightgrey;
+}
 
 /* style="background: url(img/pub.jpeg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;" */
